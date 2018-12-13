@@ -1,0 +1,6 @@
+version: '3'
+services:
+  sa-frontend:
+    image: tanaphonble/sentiment-analysis-frontend
+    ports:
+      - '80:80'

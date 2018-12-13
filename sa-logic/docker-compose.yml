@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sa-logic:
+    network_mode: bridge
+    image: tanaphonble/sentiment-analysis-logic
+    ports:
+      - '5000:5000'
